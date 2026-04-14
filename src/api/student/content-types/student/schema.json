@@ -29,6 +29,9 @@
       "relation": "manyToOne",
       "target": "api::class.class",
       "inversedBy": "ClassNo"
+    },
+    "Birthdate": {
+      "type": "date"
     }
   }
 }

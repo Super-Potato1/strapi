@@ -722,6 +722,7 @@ export interface ApiStudentStudent extends Struct.CollectionTypeSchema {
         },
         number
       >;
+    Birthdate: Schema.Attribute.Date;
     ClassNo: Schema.Attribute.Relation<'manyToOne', 'api::class.class'>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
